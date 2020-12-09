@@ -1,0 +1,17 @@
+.container {
+    width: 1000px;
+    margin: 150px 150px;
+    text-align: left;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .container {
+      width: 300px;
+    }
+  }
